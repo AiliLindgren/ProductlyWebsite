@@ -27,11 +27,12 @@ a:hover {
 }
 
 .main-container-first-section {
-    border: 1px solid red;
-    position: relative;
+    /* border: 1px solid red; */
+    /* position: relative; */
     width: 100%;
     height: 543px;
     /* width: 1119px; */
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -53,54 +54,60 @@ a:hover {
 }
 
 .horizontal {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
-    justify-content: center;
 }
 
 .top {
     /* border: 1px solid orange; */
     width: 539px;
+    justify-content: center;
 }
 
 .middle {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: space-between;
     box-sizing: border-box;
+}
+
+.bottom {
+    justify-content: center;
 }
 
 .small-container-first-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
+/* ID:t #small-container är bara för att testa den lilla boxen med lila ikon, ska inte behållas sedan utan gälla för alla i klassen .small-container-first-section. */
+
 #small-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 240px;
     height: 178px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.paragraphs-first-section {
+    transform: translate(0%, -100%);
 }
 
 p {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
-}
-
-#small-container h5 {
-    /* align-self: flex-end; */
 }
 
 h5 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
