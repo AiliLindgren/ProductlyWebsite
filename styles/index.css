@@ -15,8 +15,9 @@ section {
     max-width: 1121px;
     width: 100%;
     min-height: 574px;
-    margin-left: 145px;
-    margin-right: 145px;
+    margin-top: 110px;
+    /* margin-left: 145px;
+    margin-right: 145px; */
     display: flex;
     justify-content: center;
 }
@@ -154,7 +155,7 @@ h5 {
     background-color: orangered;
 }
 
-.main-container-second-section {
+.main-container-second-section, .main-container-fourth-section {
     width: 99%;  
     min-height: 574px;
     box-sizing: border-box;
@@ -162,7 +163,11 @@ h5 {
     justify-content: space-between;   
 }
 
-.container-vertical-second-section-left {
+.main-container-fourth-section {
+    min-height: 609px;
+}
+
+.container-vertical-second-section-left, .container-vertical-fourth-section-left {
     border: 1px solid red;
     width: 44%;
     min-height: inherit;
@@ -183,7 +188,7 @@ h5 {
 
 
 
-.container-vertical-second-section-left div p {
+.container-vertical-second-section-left div p, .container-vertical-fourth-section-left div p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -197,11 +202,11 @@ h5 {
     transform: translate(0%, 100%);
 }
 
-.design-professionals {
+.design-professionals, .marketers {
     text-align: start;
 }
 
-.container-vertical-second-section-left .small-text-with-heading p:first-child {
+.container-vertical-second-section-left .small-text-with-heading p:first-child, .container-vertical-fourth-section-left .small-text-with-heading p:first-child  {
     font-weight: 700;
 }
 
@@ -212,6 +217,12 @@ h5 {
 .container-vertical-second-section-right {
     border: 1px solid red;
     width: 46%;
+    min-height: inherit;
+}
+
+.container-vertical-fourth-section-right {
+    border: 1px solid red;
+    width: 48.35%;
     min-height: inherit;
 }
 
